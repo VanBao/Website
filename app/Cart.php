@@ -99,6 +99,6 @@ class Cart
     foreach($arrayIDproduct as $IDproduct){
       array_push($result, Product::find($IDproduct));
     }
-    return $result;
+    return  $result;
   }
 }
